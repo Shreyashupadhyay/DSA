@@ -35,13 +35,9 @@ struct node * inseratfirst(int n , struct node *head){
     head=ptr;
 
     return head;
-
-
-    
-    
-
-
 }
+
+
 
 int main(){
 

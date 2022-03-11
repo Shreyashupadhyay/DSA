@@ -9,12 +9,12 @@ struct Node
 };
 
 
-void linkedlisttraversal(struct Node *head)
+void linkedlisttraversal(struct Node *ptr)
 {
-    while(head!=NULL)
+    while(ptr!=NULL)
     {
-        printf("%d->",head->data);
-        head=head->next;
+        printf("%d->",ptr->data);
+        ptr=ptr->next;
     }
 }
 
